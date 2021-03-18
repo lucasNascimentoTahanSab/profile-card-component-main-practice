@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card__div {
+    width: 21.75em;
+    align-self: center;
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.card__img--background {
+    width: 21.75em;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card__img--profile {
+    border-radius: 50%;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+    top: -52px;
+}
